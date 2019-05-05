@@ -59,7 +59,7 @@
 
   - *Responds to `!roles` - List Available Roles*
 
-* LBRY URL Linker displays lbry:// urls as open.lbry.io links to make them clickable
+* LBRY URL Linker displays lbry:// urls as open.lbry.com links to make them clickable
 
 * LBRY claim bot displays recent publishes on the lbry protocol
 
@@ -71,6 +71,12 @@
 
 </details>
 </h3>
+
+Anyone with a discord server can just invite the bot.
+
+https://discordapp.com/api/oauth2/authorize?client_id=567755591469105180&permissions=8&scope=bot
+
+It’s currently serving 3 discord servers. LBRYSocial, LBRYIndia and OpenSourceLBRY. If there’s any extra feature you’d like, you can let us know and we will work on it or better still submit a PR. 
 
 ____
 
