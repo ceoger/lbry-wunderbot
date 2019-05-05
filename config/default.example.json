@@ -1,74 +1,67 @@
 {
   // Bot configuration
   "bot": {
-    "token": "",
+    "token": "discordbot token",
     "prefix": "!",
     "debug": false
   },
   "moderation": {
-    "perms": ["Moderator Team", "LBRY TEAM"], // Roles that have access to all commands.
-    "logchannel": "371620338263523328" // Channel to log the bots moderation..
+    "perms": ["Admin, Moderator"], // Roles that have access to all commands.
+    "logchannel": "530432744279375883" // Channel to log the bots moderation..
   },
   "lbrycrd": {
     "host": "localhost",
     "port": 9245,
-    "user": "USERHERE",
-    "pass": "PASSWORDHERE"
+    "user": "lbry",
+    "pass": "yourpassword"
   },
   "mongodb": {
     "url": "mongodb://localhost:27017/wunderbot"
   },
   "Channels": {
-    "verification": "571001864271691805",
-    "mining": "363049669636390913",
-    "random": "363084227518136322"
+    "random": "530750103284350988"
   },
   "speechbot": {
     "channels": [
-      "363089721313722387",
-      "363085078403874823",
-      "363086945976320010",
-      "363086925428555776",
-      "363086752518242308",
-      "369896313082478594",
-      "363087606239461377",
-      "363088045366312962",
-      "363084227518136322",
-      "363084262028607488",
-      "371620338263523328"
+	"529553741247152150",
+"529561992671789076",
+"529563397360975882",
+"559952185429852184",
+"558549039826862092",
+"529575330495725598",
+"530747972133191680",
+"558551934227972096",
+"561526888107999254"
     ], // Channels speech bot is allowed to post in
-    "mainchannel": "363085078403874823" // Main Speech Bot channel for directing with help message
+    "mainchannel": "529553741247152150, 561526888107999254, 563362205291249684" // Main Speech Bot channel for directing with help message
   },
   "pricebot": {
-    "channels": ["363050205043621908", "369896313082478594", "371620338263523328"], // Chanels price bot is allowed to post in
-    "mainchannel": "363050205043621908" // Main Price Bot channel for directing with help message
-  },
-  "gitrelease": {
-    "channel": "370779899650375681" // Channel to send release info to using <!releasenotes post>
+    "channels": ["530747972133191680", "558549039826862092", "530750103284350988"], // Chanels price bot is allowed to post in
+    "mainchannel": "530747972133191680" // Main Price Bot channel for directing with help message
   },
   "spamdetection": {
-    "channels": ["363089721313722387", "363044238486798336", "363086719391629326", "363044275363119105", "363044260938776576", "372067478542745601", "369896313082478594", "371620338263523328"], // Channels excluded from Spam Detection
-    "users": ["244245498746241025"] // Users to exclude from Spam Detection (include other bots here)
+    "channels": ["529553741247152150", "530764868434001925", "561526888107999254"], // Channels excluded from Spam Detection
+    "users": ["439859917042483214", "370589004179177472"] // Users to exclude from Spam Detection (include other bots here)
   },
   "hashbot": {
     "channels": ["363049669636390913", "369896313082478594", "371620338263523328"], // Channels Hash Bot is allowed to post in
-    "mainchannel": "363049669636390913" // Main Hash Bot channel for directing with help message
-  },
+    "mainchannel": "530750103284350988" // Main Hash Bot channel for directing with help message
+},
   "statsbot": {
-    "channels": ["363050205043621908", "369896313082478594", "371620338263523328"], // Channels Stats Bot is allowed to post in
-    "mainchannel": "363050205043621908" // Main Stats Bot channel for directing with help message
+    "channels": ["529553741247152150", "530747972133191680", "530750103284350988"], // Channels Stats Bot is allowed to post in
+    "mainchannel": "530747972133191680" // Main Stats Bot channel for directing with help message
   },
   "claimbot": {
-    "channels": ["363086719391629326"]
+    "channels": ["530826260738342913"]
   },
   "rolelist": {
-    "baserole": "LBRYian",
-    "allowedroles": ["NSFW", "Traders", "Miners", "Off-Topic Chats", "International", "Dev"]
+    "baserole": "LBRYnaut",
+    "allowedroles": ["NSFW", "Traders", "Miners", "Off-Topic Chats", "International", "Dev", "Hive", "Meme King"]
   },
   "irc": {
     "nickname": "wunderbot",
     "server": "chat.freenode.net",
-    "discordToken": "",
+    "discordToken": "bot token",
     "ircOptions": {
       "userName": "wunderbot",
       "nick": "wunderbot",

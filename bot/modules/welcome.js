@@ -9,7 +9,7 @@ exports.onUserJoin = function(bot) {
         embed: {
           title: '*Click here for more info about LBRY!*',
           description:
-            '**Welcome to LBRY Discord Community, you are now officially a LBRYian!** \n' +
+            '**Welcome to LBRY Discord Community Hive, you are now officially a LBRYian!** \n' +
             'If you are new to LBRY and would like to learn more, see the links at the end of this message. \n' +
             'This community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform! \n' +
             '**Looking for *Rewards Verification*? Please make a request in the #verification channel by sending a direct message (DM) to @VerificationBot#0287. You can do this by right clicking on the name. A mod will reach out to you, please be patient . **Note: DO NOT message any team members or post in other channels about verification concerns.**. Only 1 Reward account is allowed per household** \n',
@@ -81,7 +81,7 @@ exports.onUserJoin = function(bot) {
           color: 7976557,
           author: {
             name: 'What is LBRY?',
-            url: 'https://lbry.io/what',
+            url: 'https://lbry.com/what',
             icon_url: 'https://spee.ch/2/pinkylbryheart.png'
           }
         }
@@ -99,7 +99,7 @@ exports.onUserJoin = function(bot) {
           color: 7976557,
           author: {
             name: 'LBRY FAQ',
-            url: 'https://lbry.io/faq',
+            url: 'https://lbry.com/faq',
             icon_url: 'https://spee.ch/8/Id5Qoc3w.png'
           }
         }
@@ -203,7 +203,7 @@ exports.welcome = {
             '2. See the Frequently Asked Questions (FAQ) section below prior to asking for help or information on LBRY \n' +
             '3. Backing up your LBRY wallet is your responsibility, see FAQ link below \n' +
             '4. You can find the LBRY Block explorer at https://explorer.lbry.com \n' +
-            '5. Want to contribute more? Check out https://lbry.io/faq/contributing \n' +
+            '5. Want to contribute more? Check out https://lbry.com/faq/contributing \n' +
             '6. Are you a dev? Check out the #dev channel \n' +
             '7. Want to share something you published? Post it on the #publishers channel \n',
           color: 7976557,
@@ -227,7 +227,7 @@ exports.welcome = {
           color: 7976557,
           author: {
             name: 'What is LBRY?',
-            url: 'https://lbry.io/what',
+            url: 'https://lbry.com/what',
             icon_url: 'https://spee.ch/2/pinkylbryheart.png'
           }
         }
