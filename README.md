@@ -72,7 +72,7 @@
 </details>
 </h3>
 
-Anyone with a discord server can just invite the bot.
+### Anyone with a discord server can just invite the bot.
 
 https://discordapp.com/api/oauth2/authorize?client_id=567755591469105180&permissions=8&scope=bot
 
